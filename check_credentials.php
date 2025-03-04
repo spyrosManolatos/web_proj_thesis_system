@@ -14,7 +14,7 @@ session_start();
                         
     $name = $_GET["name"];
     $user_password = $_GET["password"];
-    $servername = "localhost";
+    $servername = "192.168.10.21";
     $username = "root";
     $password = "";
     $dbname = "diplomacy_system";
