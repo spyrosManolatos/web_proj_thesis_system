@@ -2,7 +2,7 @@
     session_start();
     
     // Check if user is not logged in
-    if(!isset($_SESSION['username']) || $_SESSION['userType']!="Student"){
+    if(!isset($_SESSION['username']) || $_SESSION['userType']!="student"){
         $illegal_redirection = "true";
         header('Location: loginPage.php?illegalRedirection='.$illegal_redirection);
         exit();
