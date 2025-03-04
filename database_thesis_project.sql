@@ -98,6 +98,26 @@ CREATE TABLE professor_notes (
     FOREIGN KEY (professor_id) REFERENCES teacher(teacher_id),
     FOREIGN KEY (assignment_id) REFERENCES thesis_assignments(thesis_assignment_id)
 );
+
+-- Create the secretary table
+CREATE TABLE IF NOT EXISTS secrertary (
+    secrertary_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NULL,
+    phone INT NULL,
+    PRIMARY KEY (secrertary_id),
+    UNIQUE INDEX idx_username (username),
+    FOREIGN KEY (username) REFERENCES user_det(USER)
+);
+
+INSERT INTO `user_det` (`USER`, `password`, `userType`) VALUES
+('secretary', '123', 'secretary');
+
+INSERT INTO secretary (name, email, phone) VALUES
+('Ανθή Παππά', 'anthi@gmail.com', '2610444');
+
+
 INSERT INTO `user_det` (`USER`, `password`, `userType`) VALUES
 ('st1', '123', 'student'),
 ('st2', '123', 'student'),
