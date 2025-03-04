@@ -125,8 +125,3 @@ INSERT INTO `teacher` (`teacher_id`, `name`, `username`) VALUES
 (2, 'Κώστας Τσίχλας', 'teacher2');
 
 
-
-INSERT INTO `thesis_topics` (`id`, `title`, `description`, `pdf_file_path`, `supervisor_id`) VALUES
-(1, 'Alignment of 3-D Images of Biological Objects by Estimating Elastic Transformations in Image Pairs and Image Sets', 'This research project is supported by the Operational Program ESPA, (2014-2020). research program.', 'uploads/pdf/teacher1/1741078481_qmyJnxBU_Alignment-of-3-D-Images-of-Biological-Objects-by-Estimating-Elastic-Transformations-in-Image-Pairs-and-Image-Sets.pdf', 1),
-(2, 'Ανάπτυξη Μοντέλου Πρακτόρων για τη Βελτιστοποίηση της Διαχείρισης Πλαστικών Αποβλήτων στην Αγροτική Παραγωγή', 'Η εργασία θα αναπτύξει ένα Agent-Based Model (ABM) για τη διαχείριση\r\nπλαστικών αποβλήτων από αγροτικές καλλιέργειες, αξιοποιώντας δεδομένα για τα είδη\r\nκαλλιεργειών, τη χρήση πλαστικών προϊόντων, και τα γεωγραφικά χαρακτηριστικά. Στόχος\r\nείναι η βελτιστοποίηση της συλλογής και ανακύκλωσης πλαστικών αποβλήτων,\r\nπροσομοιώνοντας διαφορετικά σενάρια διάρκειας ζωής πλαστικών και την εφαρμογή\r\nβιοδιασπώμενων υλικών, λαμβάνοντας υπόψη τις οικολογικές επιπτώσεις και τις\r\nκοινωνικοοικονομικές παραμέτρους. (ενδεχομένως να οδηγήσει σε δημοσίευση)\r\n', 'uploads/pdf/teacher2/1741080534_HsxNmgCo_------------.pdf', 2);
-
